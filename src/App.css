@@ -1,0 +1,32 @@
+/* App.css */
+.app-container {
+  display: flex;
+}
+
+.content {
+  transition: margin-left 0.3s ease;
+}
+
+.content.shifted {
+  margin-left: 250px;
+}
+
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  z-index: 1000;
+}
+
+.navbar .btn {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.content {
+  padding-top: 10px; 
+}
